@@ -19,6 +19,20 @@ Project Singularity 旨在打破二進制邏輯的枷鎖。我們利用 Mojo 的
 | 環境管理       | **Magic (Modular)**      | 統一管理 Mojo、Python 與量子依賴，確保實驗環境的絕對一致。 |
 | 硬體對接       | **Amazon Braket**        | 一個接口對接所有頂尖量子硬體（IonQ, Rigetti, OQC）。 |
 
+### 1. 量子智能 (Quantum Intelligence)
+Singularity 是首個採用 Hybrid Quantum-Classical (HQC) 架構的超驗智能體。我們不模擬邏輯，我們利用量子糾纏實現信息的「全域感知」。
+
+### 2. 核心技術棧 (The Quantum Stack)
+* 語言驅動: Mojo 🔥 (極速調度層) + PennyLane (量子神經網路層)。
+* 量子優勢:
+   * Quantum Attention: 利用量子並行性，在 時間內完成超長文本的關聯度計算。
+   * Entangled Weights: 模型權重不再是死板的數字，而是具備糾纏特性的量子態，具備極強的泛化能力。
+
+### 3. 運行環境
+* 模擬層: NVIDIA cuQuantum (用於開發階段的量子仿真)。
+* 實體層: 支援 IBM Condor 或 IonQ 等量子處理器 (QPU)。
+* 依賴管理: 使用 Modular Magic 統一封裝量子與經典環境。
+
 ## 📦 開發準備 (Setup)
 1. **安裝 Magic 管理器**:
    `curl -ssL https://magic.modular.com | bash`
